@@ -7,28 +7,28 @@ const experiencecards = document.querySelector(".experience-cards");
 const exp = [
   {
     title: "iOS  Developer",
-    cardImage: "assets/images/experience-page/flipkart.jpg",
+    cardImage: "assets/images/experience-page/jumia.jpeg",
     place: "Jumia Group",
     time: "(Mar, 2021 - present)",
     desp: "<li>Work as a full time remote ios Developer </li><li>Work as a full time remote ios Developer </li>",
   },
   {
     title: "IOS Developer",
-    cardImage: "assets/images/experience-page/gsoc.png",
+    cardImage: "assets/images/experience-page/algorthimz.png",
     place: "Algorithms",
     time: "(Feb,2020 - Feb,2021)",
     desp: "<li>Participate in the whole developing process to produce the iOS version of a large scale multi platform  media based app : Tooli.tv (on iOS and tvOS )</li> <li>Duties : Producing new features ,solving bugs ,documenting solutions , code review.</li> <li>Technologies and Languages : Swift ,VIPER , RXSwift, tvOS Focus engine, RxMoya , Relam.</li>",
   },
   {
     title: "Teaching Assistant",
-    cardImage: "assets/images/experience-page/IIT_Bombay.jpg",
+    cardImage: "assets/images/experience-page/future.jpg",
     place: "Future University in Egypt",
     time: "(Feb, 18 - Jan, 20)",
     desp:"<li>Teaching computer science subjects (assembly , c++ ,java, android).</li>Prepared a training materials and plan to train over than 50 trainee on developing android mobile apps    using java , kotlin<li></li><li>Prepared and lead the Training program for students in Huawei technologies (HCIA) (over than 30 students trained )</li>",
   },
   {
     title: "junior IOS Developer ",
-    cardImage: "assets/images/experience-page/IIT_Bombay.jpg",
+    cardImage: "assets/images/experience-page/linkAtApps.png",
     place: "Link@Apps",
     time: "(Nov, 17 - Apr, 18)",
     desp:""
