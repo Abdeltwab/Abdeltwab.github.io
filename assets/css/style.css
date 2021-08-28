@@ -12678,6 +12678,7 @@ figcaption {
     margin: 10px 10px;
   }
 }
+/* This if for social icons */
 .slide .social-share-inner-left .social-share li a {
   display: inline-block;
   width: 60px;
@@ -12685,14 +12686,25 @@ figcaption {
   line-height: 60px;
   text-align: center;
   font-size: 14px;
-  letter-spacing: 2px;
   text-transform: uppercase;
-  border-radius: 6px;
   transition: var(--transition);
   background: var(--background-color-1);
   box-shadow: var(--shadow-1);
   position: relative;
+  justify-content: center;
+
 }
+
+
+.slide .social-share-inner-left .social-share li a svg {
+  color: var(--color-lightn);
+  transition: var(--transition);
+  stroke-width: 2;
+  position: relative;
+  z-index: 2;
+  width: 35px;
+}
+
 .slide .social-share-inner-left .social-share li a::before {
   content: "";
   position: absolute;
@@ -12706,14 +12718,7 @@ figcaption {
   opacity: 0;
   z-index: -1;
 }
-.slide .social-share-inner-left .social-share li a svg {
-  color: var(--color-lightn);
-  transition: var(--transition);
-  stroke-width: 2;
-  position: relative;
-  z-index: 2;
-  width: 20px;
-}
+
 .slide .social-share-inner-left .social-share li a:hover {
   transform: translateY(-3px);
 }
